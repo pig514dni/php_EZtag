@@ -1,0 +1,110 @@
+li span{
+    display:inline-block;
+    width:150px;
+}
+li{
+    padding: 2px 0;
+}
+li:hover{
+     background:#cccccc ;
+}
+/*span #scrollBar{
+	float:left;
+}*/
+
+#ezTag{
+	/*border:1px solid red;*/
+	font:40px  bold Arial;
+	color:#09d8d2;
+	text-decoration:none;
+}
+#searchBar{
+	position: absolute;
+	left:40%;
+	/*border:1px red solid;*/
+	padding: 8px;
+	/*float:left;*/
+}
+#addtag{
+	position: absolute;
+	left:55%;
+	/*border:1px red solid;*/
+	padding: 8px;
+}
+#deletetag{
+	position: absolute;
+	left:68.5%;
+	/*border:1px red solid;*/
+	padding: 8px;
+}
+#account{
+	position: absolute;
+	left:84%;
+	/*border:1px red solid;*/
+	padding: 8px;
+}
+#logout{
+	position: absolute;
+	left:90%;
+	/*border:1px red solid;*/
+	padding: 8px;
+}
+#scrollBar{
+	border:1px solid black; 
+	overflow-y:hidden;
+	overflow-x:scroll;
+
+}
+#leftList{
+	/*border-right: 1px red solid;*/
+	width: 26%;
+	float: left;
+	overflow-y: scroll;
+	height:500px;
+}
+#rightList{
+	/*border-right: 1px red solid;*/
+	width:26%;
+	float:left;
+	overflow-y: scroll;
+	height:500px;
+}
+#preview{
+	/*border: 1px red solid;*/
+	float: left;
+	width:47%;
+	height:300px;
+}
+
+.tags{
+	float:left;
+	width:50px;
+	/*border:1px red solid;*/
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+.e{
+	float:left;
+	
+}
+.deletereadtag{
+	float:left;
+	/*margin: 0 0 0 0 ;*/
+}
+.clear{
+	clear:both;
+}
+body{
+	background:-webkit-radial-gradient(center,circle,#F5F1E5 20%,	#F5F1E5 70%);
+	color:#66B3FF;
+}
+/*#66B3FF 20%*/
+/*color:#88ccdd; 原本的LOGO色*/
+/*color:#66B3FF; 淺藍色*/
+/*0ABAB5 tiffany藍*/
+/*08ada8初始綠色*/
+
+a{
+	color:#09d8d2;
+	text-decoration:none;
+}

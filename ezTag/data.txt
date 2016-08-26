@@ -1,0 +1,22 @@
+[name.tag|tag;style],[index.php|tag,main.css|style;tag,data.txt|document]
+[name1.tag|tag;tag2;tag3;style;style2;doc;docc],[index.php|tag;tag2;tag3,main.css|style;style2;tag,data.txt|document;doc;docc]
+[name2.tag|tag;tag2;tag3;style;style2;doc;docc],[index.php|tag;tag2;tag3,main.css|style;style2;tag,data.txt|document;doc;docc]
+
+$person:tag;tag2;tag3;style;style2;doc;docc],[index.php|tag;tag2;tag3,main.css|style;style2;tag,data.txt|document;doc;docc]
+
+$personCut:tag;tag2;tag3;style;style2;doc;docc],[index.php|tag;tag2;tag3,main.css|style;style2;tag,data.txt|document;doc;docc
+
+$tagOfPerson:[0] => tag
+  		     [1] => tag2
+             [2] => tag3
+             [3] => style
+             [4] => style2
+             [5] => doc
+             [6] => docc
+
+$filterByFile:Array ( [0] => index.php|tag;tag2;tag3 [1] => main.css|style;style2;tag [2] => data.txt|document;doc;docc ) 
+
+$filenames: Array ( [0] => index.php [1] => main.css [2] => data.txt ) 
+
+
+$filenameAndTag: Array ( [index.php] => #tag#tag2#tag3 [main.css] => #style#style2#tag [data.txt] => #document#doc#docc ) 
